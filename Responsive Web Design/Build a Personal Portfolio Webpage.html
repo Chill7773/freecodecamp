@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Build a Personal Portfolio Webpage</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build a Personal Portfolio Webpage</title>
+    <style>
+      #welcome-section,
+      #projects,
+      #contact {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #navbar{
+        display: flex;
+        justify-content: center;
+      }
+      .nav-list {
+        display: flex;
+      }
+      .nav-list li {
+        margin-right: 3rem;
+      }
+      @media (max-width: 650px) {
+        .nav-list {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <h1>Hey I am L</h1>
+    </section>
+
+    <section id="projects">
+      <div id="project-tile"></div>
+      <a href="https://codepen.io/chill7773/pen/WNXBGeo">Tribute Page</a>
+    </section>
+    <section id="contact">
+      <a id="profile-link" href="https://github.com/freecodecamp">contact me</a>
+    </section>
+  </body>
 </html>
