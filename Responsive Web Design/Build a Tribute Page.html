@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Build a Tribute Page</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build a Tribute Page</title>
+    <style>
+      #main {
+        margin: 30px 8px;
+        padding: 15px;
+        border-radius: 5px;
+        background: #eee;
+      }
+      #title {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+      }
+      #img-div {
+        background: white;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+      }
+      #image {
+        max-width: 80%;
+        height: auto;
+      }
+      #tribute-info {
+        margin: auto;
+        width: 50%;
+        text-align: justify;
+        text-indent: 2rem;
+      }
+      .footer {
+        margin: 50px 0;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="title">袁隆平</div>
+      <div id="img-div">
+        <img id="image" src="https://s1.ax1x.com/2022/03/13/bbKqHI.jpg" />
+        <div id="img-caption">1962年的袁隆平</div>
+      </div>
+
+      <div id="tribute-info">
+        <p>
+          袁隆平（1929年8月13日－2021年5月22日）
+          ，男，汉族，江西德安人，中国杂交水稻育种专家，中国工程院院士和美国科学院外籍院士，
+          于1960年代至1970年代对杂交水稻品种的研究，令中国大陆和世界各地的粮产增加，
+          被誉为“杂交水稻之父”。
+        </p>
+        <p>
+          1953年袁隆平毕业于西南农学院，分发到湖南安江农业学校。
+          袁隆平决意研究农产源于他目睹1959年湖南在三年大饥荒期间的惨状；
+          1966年2月他在中国科学院《科学通报》于文革休刊前最后一期赶及发表他第一篇论文，
+          受国家科委注目，国家科委因而责成安江农业学校在湖南文革期间保护并支持袁隆平研究。
+          在国家科委的支持下，袁隆平的水稻研究在1970－2000年代屡有突破，
+          使他获联合国多个奖项和获封澳门科技大学荣誉博士，
+          于2019年更获颁共和国勋章。2020年任湖南农业大学名誉校长。
+        </p>
+      </div>
+      <div class="footer">
+        了解
+        <a
+          id="tribute-link"
+          target="_blank"
+          href="https://zh.wikipedia.org/wiki/%E8%A2%81%E9%9A%86%E5%B9%B3"
+          >更多...</a
+        >
+      </div>
+    </div>
+  </body>
 </html>
