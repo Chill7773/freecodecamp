@@ -5,6 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Build a Technical Documentation Page</title>
+    <style>
+      #navbar {
+        position: fixed;
+        min-width: 290px;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 100%;
+        border-right: 1px solid rgba(0, 22, 22, 0.4);
+      }
+      #main-doc {
+        position: absolute;
+        margin-left: 310px;
+        padding: 20px;
+        margin-bottom: 110px;
+      }
+      header {
+        margin: 100px 0;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <nav id="navbar">
+      <header>Technical Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#topic1">topic1</a></li>
+        <li><a class="nav-link" href="#topic2">topic2</a></li>
+        <li><a class="nav-link" href="#topic3">topic3</a></li>
+        <li><a class="nav-link" href="#topic4">topic4</a></li>
+        <li><a class="nav-link" href="#topic5">topic5</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="topic1">
+        <header>topic1</header>
+        <p>p1</p>
+        <p>p2</p>
+        <p>p3</p>
+        <p>p4</p>
+        <p>p5</p>
+        <p>p6</p>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+        <p>p7</p>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+        <p>p8</p>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+        <p>p9</p>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+        <p>10</p>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+      </section>
+      <section class="main-section" id="topic2">
+        <header>topic2</header>
+      </section>
+      <section class="main-section" id="topic3">
+        <header>topic3</header>
+      </section>
+      <section class="main-section" id="topic4">
+        <header>topic4</header>
+      </section>
+      <section class="main-section" id="topic5">
+        <header>topic5</header>
+      </section>
+    </main>
+  </body>
 </html>
